@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+  <html>
+      <head>
+          <title>Todo list App</title>
+          <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
+          <link rel="stylesheet" href="css/style.css">
+          </head>
+      <body>
+          <div class="container">
+              <div class="section">
+                  <h3 class="section__header">Add Item</h3>
+                  <div>
+                      <input class="section__input text add-item" type="text" id="new-task">
+                      <button class="add">Add</button>
+                  </div>
+              </div>
+              <div class="section">
+                  <h3 class="section__header">Todo</h3>
+                  <div>
+                      <ul class="section__list incomplete-tasks" id="incomplete-tasks"></ul>
+                  </div>
+              </div>
+              <div class="section">
+                  <h3 class="section__header">Completed</h3>
+                  <div>
+                      <ul class="section__list completed-tasks" id="completed-tasks"></ul>
+                  </div>
+              </div>
+          </div>
+        <script src="js/app.js"></script>
+      </body>
+</html>
+
